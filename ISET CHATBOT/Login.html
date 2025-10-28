@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISET ChatBot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-body">
+    <header class="header">
+      <img src="logo redondo.jpg" alt="logo">
+    </header>
+    <main class="login-container">
+      <div class="login-left">
+        <img src="logo institucional.png" alt="ISET">
+      </div>
+
+      <div class="login-right">
+        <form id="loginForm" class="login-form">
+          <label for="email">Email:</label>
+          <input type="email" id="email"required>
+
+          <label for="password">Contraseña:</label>
+          <input type="password" id="password" required>
+
+          <div class="reember-section">
+            <input type="checkbox" id="remember">
+            <label for="remember">Recordame</label>
+            <button type="submit" class="btn-ingresar">INGRESAR</button>
+          </div>
+
+          <a href="#" class="forgot"> Olvidé mi contraseña</a>
+
+          <hr>
+
+          <p>Aún o estoy registrado:</p>
+          <button type="button" class="byn-registrarse" onclick="window.location.href='registrs.html'">REGISTRARSE</button>
+        </form>
+      </div>
+  </main>
+  script src="script.js"></script>
+</body>
+</html>

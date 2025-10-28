@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-body {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 40px;
+}
+
+.header .logo {
+  height: 4vw;
+ /*margin-right: 15px;*/
+ max-height: 45px
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 80%;
+  gap: 80px;
+}
+
+.login-left img {
+  width: 400px;
+}
+
+.login-right {
+  background-color: #1eb4f3;
+  border-radius: 5px;
+  padding: 40px;
+  width: 350px;
+  color: #000;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.remember-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-ingresar {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.forgot {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+}
+
+.btn-registrarse {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+}
